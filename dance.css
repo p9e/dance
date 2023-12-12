@@ -1,0 +1,23 @@
+::selection {
+  background: purple;
+  color: #ed3;
+}
+
+::selection {
+  background: rgb(180, 90, 240);
+  color: rgb(30, 30, 20);
+}
+
+:any-link {
+  color: inherit;
+}
+
+.dance {
+  background: rgb(180, 90, 240);
+  color: rgb(30, 30, 20);
+}
+
+.dance ::selection {
+  background: rgb(30, 30, 20);
+  color: #ed3;
+}
